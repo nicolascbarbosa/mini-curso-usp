@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Page Title</title>
+  <meta name="viewport" content="width=device-width, 
+  initial-scale=1">
+
+
+
+
+  <style>
+    *,
+    *:before,
+    *:after {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Helvetica, sans-serif;
+    }
+
+    .wrapper {
+      display: flex;
+    }
+
+    .box {
+      border: 1px solid #000;
+      text-align: center;
+      font-size: 30px;
+      font-weight: bold;
+      flex: 1;
+      height: 500px;
+    }
+
+    .box p {
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%);
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="wrapper">
+    <div class="box">
+      <p>Esquerda</p>
+    </div>
+
+    <div class="box">
+      <p>centro</p>
+    </div>
+
+    <div class="box">
+      <p>direita</p>
+    </div>
+  </div>
+
+</body>
+
+</html>
