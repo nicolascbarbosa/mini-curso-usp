@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/*
+  BOX
+*/
+.wrapper {
+  display: flex;
+}
+
+.box-left {
+  flex: 1 33.33%;
+  border-right: 1px solid 
+  rgba(0, 0, 0, 0.6);
+}
+
+.box-right {
+  flex: 1 66.66%;
+}
+
+/* 
+  HEADER
+*/
+
+.header {
+  display: flex;
+  align-items: center;
+  padding: 20px 10px;
+  background-color: #54759e;
+  color: white;
+  height: 80px;
+}
+
+.title {
+  margin: 0;
+  margin-left: 30px;
+}
+
+.icon-right { 
+  margin-left: auto;
+}
+
+
+/*
+  Avatar
+*/
+
+.box-avatar {
+  position: relative;
+  overflow: hidden;
+  width: 40px;
+  height: 40px;
+  margin-left: 30px;
+  border-radius: 30px;
+  /* border-radius: 100%; */
+}
