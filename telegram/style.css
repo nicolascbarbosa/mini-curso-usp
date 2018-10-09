@@ -21,8 +21,6 @@ img {
 
 .box-left {
   flex: 1 33.33%;
-  border-right: 1px solid 
-  rgba(0, 0, 0, 0.6);
 }
 
 .box-right {
@@ -47,21 +45,54 @@ img {
   margin-left: 30px;
 }
 
-.icon-right { 
+.icon-right {
   margin-left: auto;
 }
-
 
 /*
   Avatar
 */
-
 .box-avatar {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box-image {
+  flex: 0 40px;
   position: relative;
   overflow: hidden;
-  width: 40px;
   height: 40px;
   margin-left: 30px;
-  border-radius: 30px;
-  /* border-radius: 100%; */
+  border-radius: 100%;
+}
+
+.name-status {
+  flex: 1;
+  margin-left: 10px;
+}
+
+.name {
+  margin: 0;
+}
+
+/* 
+  Box Left
+*/
+
+.box-left .header {
+  border-right: 1px solid rgba(0, 0, 0, 0.6);
+}
+
+.contact-list {
+  background-color: white;
+}
+
+/* 
+  Box Right
+*/
+.messages {
+  width: 100%;
+  height: 100%;
+  background-size: 100%;
+  background-image: url('images/bg.jpg')
 }
